@@ -20,7 +20,7 @@ def gen(x, bending_moments, span):
 
     line = go.Scatter(
         x=x,
-        y=sum(bending_moments),
+        y=-sum(bending_moments),
         mode='lines',
         name='Bending Moment',
         fill='tonexty',
