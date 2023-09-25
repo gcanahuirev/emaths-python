@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "emaths-python"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+numpy = "^1.26.0"
+scipy = "^1.11.2"
+sympy = "^1.12"
+planesections = "^1.1.1"
+plotly = "^5.17.0"
+nbformat = "^5.9.2"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
