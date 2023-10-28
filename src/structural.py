@@ -5,7 +5,7 @@ import planesections as ps
 L = 25 # beam length in meters
 #lets instaniate or create a beam object using newEulerBeam2D #function passing the length of the beam 
 # as an argument
-beam = ps.newSimpleEulerBeam2D(L)# we are importing the planeSections library
+beam = ps.newSimpleEulerBeam(L)# we are importing the planeSections library
 
 # Define beam with support conditions or fixities
 # key for support conditions or fixities  = {'free':[0,0,0], 'roller': [0,1,0], 'pinned':[1,1,0], 'fixed':[1,1,1]}
