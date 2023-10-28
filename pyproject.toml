@@ -7,15 +7,13 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.13"
-numpy = "^1.26.0"
-scipy = "^1.11.2"
-sympy = "^1.12"
+numpy = "^1.26.1"
 planesections = "^1.1.1"
-plotly = "^5.17.0"
-nbformat = "^5.9.2"
+plotly = "^5.18.0"
 
 [tool.poetry.group.dev.dependencies]
-ipykernel = "^6.25.2"
+ipykernel = "^6.26.0"
+nbformat = "^5.9.2"
 
 [build-system]
 requires = ["poetry-core"]
