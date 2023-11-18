@@ -12,21 +12,21 @@ This project was executed from an environment with visual studio code and python
 
 1. Install dependencies
 
-    ```sh
-    > poetry install
-    ```
+   ```sh
+   poetry install
+   ```
 
 2. Activate virtual env for python
 
-    ```sh
-    > poetry shell
-    ```
+   ```sh
+   poetry shell
+   ```
 
 3. If you want deactivate venv python run
 
-    ```sh
-    > deactivate
-    ```
+   ```sh
+   deactivate
+   ```
 
 ## Usage
 
